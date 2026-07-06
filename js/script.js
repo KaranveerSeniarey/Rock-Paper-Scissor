@@ -12,7 +12,6 @@ const pwin = document.getElementsByClassName('p-win')[0];
 const plost = document.getElementsByClassName('p-lost')[0];
 const pdraw = document.getElementsByClassName('p-draw')[0];
 const proundInfo = document.getElementsByClassName('round-info-p')[0];
-console.log(proundInfo);
 
 let totalRounds, rounds;
 
