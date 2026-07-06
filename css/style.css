@@ -1,6 +1,8 @@
 @font-face {
     font-family: harry;
-    src: url("../HennyPenny-Regular.ttf") format("truetype");
+    /* src: url("../HennyPenny-Regular.ttf") format("truetype"); */
+    /* src: url("../HennyPenny-Regular.ttf") format("truetype"); */
+    src: url("../../font/HennyPenny-Regular.ttf") format('truetype');
 }
 
 * {
