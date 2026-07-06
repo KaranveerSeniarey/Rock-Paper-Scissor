@@ -101,11 +101,11 @@ for (let btn of choiceBtn) {
             proundInfo.style.display = "none";
             if (Number(userScore.innerText) > Number(compScore.innerText)) {
                 document.getElementsByClassName('p-win').display = "block";
-                mainImg.src = "/image/trophy.jpg";
+                mainImg.src = "image/trophy.jpg";
                 pwin.style.display = 'block';
             }
             else if (Number(userScore.innerText) < Number(compScore.innerText)) {
-                mainImg.src = "/image/betterLuckNextTime.jpg";
+                mainImg.src = "image/betterLuckNextTime.jpg";
                 plost.style.display = 'block';
             }
             else {
@@ -135,7 +135,7 @@ startBtn.addEventListener('click', () => {
 
         document.getElementById('game-draw').style.display = "none";
         mainImg.style.display = "inline";
-        mainImg.src = "/image/Sword.png";
+        mainImg.src = "image/Sword.png";
 
         proundInfo.style.display = "block";
         pwin.style.display = 'none';
